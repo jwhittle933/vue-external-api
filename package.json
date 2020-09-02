@@ -1,0 +1,10 @@
+{
+  "name": "vue-external-api",
+  "version": "0.0.1",
+  "description": "External API Management for Vue",
+  "main": "index.js",
+  "repository": "github.com/jwhittle933/vue-external-api",
+  "author": "Jonathan Whittle",
+  "license": "MIT",
+  "private": false
+}
