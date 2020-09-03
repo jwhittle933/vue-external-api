@@ -66,8 +66,7 @@ export default class ExAPI {
       get(obj, method) {
         if (Reflect.has(obj, method)) {
           return async function(...args) {
-            const key = args[0] || 0
-            await obj[method](Store, key)
+            await obj[method](Store, ...args)
           }
         } else {
           console.error(`Request object has no method ${method}`)
